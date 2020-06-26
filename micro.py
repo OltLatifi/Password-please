@@ -196,7 +196,7 @@ class passwordStorer:
 			elif index == self.names[3]:
 				# print('this')
 				self.delete = Button(self.frm, text='Delete!', command = self.delete, bg = 'lightgray')
-				self.delete.place(x=10,y=190,width=480,height=25)
+				self.delete.place(x=40,y=215,width=209,height=25)
 
 			# adds content on the listbox
 			self.add_read()
